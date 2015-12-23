@@ -1,0 +1,85 @@
+# ----------------------------------------------------------------------------------------------
+# Git Ignores @see https://github.com/github/gitignore
+# ----------------------------------------------------------------------------------------------
+
+# Application Specific
+# ----------------------------------------------------------------------------------------------
+data/
+**/data/**
+
+simple-data/
+**/simple-data/**
+
+
+# Bower / Node / Grunt / SASS
+# ----------------------------------------------------------------------------------------------
+node_modules
+bower_components
+.sass-cache
+Gemfile.lock
+.grunt/
+
+**/node_modules
+**/.sass-cache
+**/.tmp
+**/build
+*.log
+
+
+# Vagrant
+# ----------------------------------------------------------------------------------------------
+.vagrant
+
+
+# OSX
+# ----------------------------------------------------------------------------------------------
+.DS_Store
+**/.DS_Store
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.com.apple.timemachine.supported
+
+
+# Windows
+# ----------------------------------------------------------------------------------------------
+Thumbs.db
+
+
+# SVN + Mercurial
+# ----------------------------------------------------------------------------------------------
+.svn/
+/.hg/*
+*/.hg/*
+.hgignore
+
+
+# Sublime / Other Editors
+# ----------------------------------------------------------------------------------------------
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+
+# Tags
+# ----------------------------------------------------------------------------------------------
+# Ignore tags created by etags and ctags
+TAGS
+tags
+
+
+# Vim
+# ----------------------------------------------------------------------------------------------
+#.*.sw[a-z]
+#*.un~
+Session.vim
